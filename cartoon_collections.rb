@@ -21,7 +21,13 @@ end
 def find_the_cheese(array)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array.each {|x| cheese_types.each {|y| puts ("#{x}#{y}")}}
+  array.each {|x| cheese_types.each {|y|
+if x == y
+  puts("#{y}")
+else
+  nil
+end
+    )}}
 
 end
 soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
