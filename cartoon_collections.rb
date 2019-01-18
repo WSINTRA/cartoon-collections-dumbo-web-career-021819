@@ -1,4 +1,5 @@
-def roll_call_dwarves# code an argument here
+def roll_call_dwarves(array)# code an argument here
+  puts(array.each_with_index)
   # Your code here
 end
 
@@ -14,3 +15,5 @@ def find_the_cheese# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
+
+roll_call_dwarves(["jam","bread","Coffee"])
