@@ -1,6 +1,6 @@
 def roll_call_dwarves(array)# code an argument here
   count = 0
-  array.each {|x| puts(count += 1, x)}
+  array.each {|x| puts(count += 1"." x)}
   # Your code here
 end
 
