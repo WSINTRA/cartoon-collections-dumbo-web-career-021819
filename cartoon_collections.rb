@@ -21,7 +21,8 @@ end
 def find_the_cheese(array)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array.include? cheese_types
+  array.each {|x| cheese_types.each {|y| if x == y return y else nil}}
+  
 end
 
 #roll_call_dwarves(["jam","bread","Coffee"])
