@@ -24,7 +24,5 @@ def find_the_cheese(array)# code an argument here
   array.each {|x| cheese_types.each {|y| puts (x,y)}}
 
 end
-
-#roll_call_dwarves(["jam","bread","Coffee"])
-#planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
-#summon_captain_planet(planeteer_calls)
+soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
+find_the_cheese(soup)
