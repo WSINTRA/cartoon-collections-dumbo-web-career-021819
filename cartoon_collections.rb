@@ -22,7 +22,7 @@ def find_the_cheese(array)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   output = array.detect {|x| cheese_types.include?(x)}
-  output
+  puts(output)
 end
 soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
 find_the_cheese(soup)
