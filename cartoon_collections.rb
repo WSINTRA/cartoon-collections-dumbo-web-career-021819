@@ -21,7 +21,7 @@ end
 def find_the_cheese(array)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array.each {|x| cheese_types.each {|y| if x == y return y else nil}}
+  array.each {|x| cheese_types.each {|y| if x == y puts(y) else puts(nil)}}
 
 end
 
