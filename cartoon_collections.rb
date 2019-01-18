@@ -20,4 +20,5 @@ def find_the_cheese# code an argument here
 end
 
 #roll_call_dwarves(["jam","bread","Coffee"])
-#planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
+planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
+summon_captain_planet(planeteer_calls)
