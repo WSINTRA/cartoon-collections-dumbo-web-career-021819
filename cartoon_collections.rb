@@ -27,7 +27,7 @@ if x == y
 else
   nil
 end
-    )}}
+    }}
 
 end
 soup = ["tomato soup", "cheddar", "oyster crackers", "gouda"]
